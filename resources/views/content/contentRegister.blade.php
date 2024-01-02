@@ -1,0 +1,10 @@
+@extends('Layout.layoutLogin')
+@section('header')
+    @include('Layout.Header')
+@endsection
+@section('Login')
+    @include('Login.register')
+@endsection
+@section('footer')
+    @include('Layout.footer')
+@endsection

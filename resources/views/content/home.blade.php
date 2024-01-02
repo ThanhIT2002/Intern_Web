@@ -1,0 +1,16 @@
+@extends('Layout.layoutHome')
+@section('header')
+    @include('Layout.Header')
+@endsection
+@section('banner')
+    @include('Home.banner')
+@endsection
+@section('newProduct')
+    @include('Home.newestProducts')
+@endsection
+@section('bestseller')
+    @include('Home.topSelling')
+@endsection
+@section('footer')
+    @include('Layout.footer')
+@endsection
